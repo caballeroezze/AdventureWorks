@@ -1,46 +1,45 @@
 # Adventure Works Sales Dashboard
 
-Este repositorio contiene un proyecto de análisis de datos y visualización desarrollado con Power BI. El objetivo del proyecto es proporcionar un análisis detallado y visualizaciones interactivas sobre el rendimiento de ventas de la empresa Adventure Works Cycles, facilitando la toma de decisiones estratégicas.
+This repository contains a data analysis and visualization project developed using Power BI. The goal of the project is to provide detailed analysis and interactive visualizations of the sales performance of Adventure Works Cycles, enabling strategic decision-making.
 
-## Archivos en este repositorio
+## Files in This Repository
 
 ### 1. `DA_Caballero_Caballero_PIM3.pbix`
-- **Descripción**: Archivo de Power BI que incluye:
-  - Tablero interactivo con múltiples páginas.
-  - Indicadores clave como ingresos, costos, utilidad bruta y utilidad neta.
-  - Análisis por territorios, períodos de tiempo y categorías de producto.
-- **Propósito**: Brindar una herramienta visual que permita explorar datos financieros y operativos de Adventure Works.
+- **Description**: Power BI file that includes:
+  - Multi-page interactive dashboard.
+  - Key metrics such as revenue, costs, gross profit, and net profit.
+  - Analysis by territories, time periods, and product categories.
+- **Purpose**: Provides a visual tool to explore Adventure Works' financial and operational data.
 
 ### 2. `DA_Caballero_Ezequiel_informePIM3.docx`
-- **Descripción**: Documento en Word que detalla:
-  - El desarrollo del modelo de datos y las transformaciones aplicadas.
-  - Las medidas calculadas en DAX utilizadas en el informe.
-  - Los resultados obtenidos y posibles líneas futuras de análisis.
-- **Propósito**: Servir como documentación complementaria que explica las decisiones y los procesos detrás del tablero de Power BI.
+- **Description**: Word document detailing:
+  - Development of the data model and applied transformations.
+  - DAX measures used in the report.
+  - Obtained results and potential future analysis directions.
+- **Purpose**: Serves as supplementary documentation explaining the decisions and processes behind the Power BI dashboard.
 
 ### 3. `DA_Caballero_Caballero_PIM3.pdf`
-- **Descripción**: Exportación en PDF del tablero de Power BI para una vista rápida del análisis.
-- **Propósito**: Proveer una referencia estática del tablero para presentaciones o revisiones rápidas.
+- **Description**: PDF export of the Power BI dashboard for a quick view of the analysis.
+- **Purpose**: Provides a static reference of the dashboard for presentations or quick reviews.
 
-## Características del Proyecto
-- **Modelo de datos optimizado**: Construido con relaciones entre tablas clave como `DimProduct`, `DimSalesTerritory`, y `FactInternetSales`.
-- **Transformaciones en Power Query**: Limpieza y normalización de datos para garantizar consistencia y precisión.
-- **Medidas avanzadas en DAX**:
-  - Indicadores financieros: ingresos, costos, utilidad bruta y neta.
-  - Variaciones año contra año (YoY) y acumulados del año (YTD).
-  - Porcentajes de margen y ratios de costo.
-- **Tablero interactivo**: Permite filtrar por territorios, períodos de tiempo y categorías específicas.
+## Project Features
+- **Optimized Data Model**: Built with relationships between key tables such as `DimProduct`, `DimSalesTerritory`, and `FactInternetSales`.
+- **Transformations in Power Query**: Data cleaning and normalization to ensure consistency and accuracy.
+- **Advanced DAX Measures**:
+  - Financial metrics: revenue, costs, gross profit, and net profit.
+  - Year-over-year (YoY) and year-to-date (YTD) variations.
+  - Margin percentages and cost ratios.
+- **Interactive Dashboard**: Allows filtering by territories, time periods, and specific categories.
 
-## Aplicaciones
-- **Análisis financiero**: Monitoreo de la rentabilidad y costos operativos.
-- **Estrategia de ventas**: Identificación de tendencias de ventas y territorios clave.
-- **Optimización de recursos**: Segmentación por productos y promociones para mejorar el rendimiento.
+## Applications
+- **Financial Analysis**: Monitoring profitability and operational costs.
+- **Sales Strategy**: Identifying sales trends and key territories.
+- **Resource Optimization**: Segmenting products and promotions to enhance performance.
 
-## Requisitos
-- **Herramienta requerida**:
-  - [Microsoft Power BI Desktop](https://powerbi.microsoft.com/): Para abrir y explorar el archivo `.pbix`.
-- **Conexión de datos**:
-  - La base de datos utilizada es `AdventureWorksDW2019` con transformaciones adicionales en Power BI.
+## Requirements
+- **Required Tool**:
+  - [Microsoft Power BI Desktop](https://powerbi.microsoft.com/): To open and explore the `.pbix` file.
+- **Data Connection**:
+  - The database used is `AdventureWorksDW2019` with additional transformations in Power BI.
 
-
-**Nota**: El proyecto se diseñó como parte de una actividad académica para explorar habilidades en análisis de datos y herramientas de visualización. Sugerencias y contribuciones son bienvenidas.
+**Note**: This project was designed as part of an academic activity to explore skills in data analysis and visualization tools. Suggestions and contributions are welcome.
